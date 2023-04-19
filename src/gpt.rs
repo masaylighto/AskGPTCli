@@ -95,7 +95,7 @@ struct  GPTResponse{
     pub choices:[Choice;1]
 
 }
-#[derive( Deserialize)]
+#[derive(Deserialize)]
 struct  Choice {
     pub delta: Delta
 }

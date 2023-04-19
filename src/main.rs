@@ -39,5 +39,5 @@ async fn main() {
 }
 fn write_to_console(output_string:&String){
         print!("{}",&output_string);
-        io::stdout().flush();
+        io::stdout().flush().unwrap();
 }
